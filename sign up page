@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+    <title>WEBSITE DESIGN USING HTML AND CSS</title>
+    <link rel="style sheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <div class="pictures"></div>
+            <img src="C:\Users\user\Pictures\Saved Pictures\1642559077293.jpg"
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Phone</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Cart</a></li>
+            </ul>
+        </nav>
+        <form>
+    
+            <fieldset>
+                <legend>Contact Details</legend>
+                <br>
+                <label for="name">Name:</label>
+                <input id="name"><br/>
+                <label for="telephone">Telephone:</label>
+                <input id="telephone"><br/>
+                <label for="user-email">Email</label>
+                <input id="user-email">
+                <br/>
+                
+                <legend>gender</legend>
+                <input type="radio"name="gender"value="Male"checked>Male<br>
+                <input type="radio"name="gender"value="Female"id="Female">
+                <label for="female">Female</label>
+            </fieldset>
+            
+        </body>
+            </form>
+            <fieldset>
+                <legend>User info</legend>
+                <label for="username">Username:</label>
+                <input id="üsername"><br/>
+                <label for="password">Password</label>
+                <input id="Password"><br/>
+                <button type="submit"></button>
+                <input tye="submit"value="Submit"/>
+            </fieldset>
+        </form>
+        <html>
+<head>
+  <title>Multiplication Table</title>
+  <script type="text/javascript">
+    var rows = prompt("How many rows for your multiplication table?");
+    var cols = prompt("How many columns for your multiplication table?");
+    if(rows == "" || rows == null)
+   		 rows = 10;
+    if(cols== "" || cols== null)
+   		 cols = 10;
+    createTable(rows, cols);
+    function createTable(rows, cols)
+    {
+      var j=1;
+      var output = "<table border='1' width='500' cellspacing='0'cellpadding='5'>";
+      for(i=1;i<=rows;i++)
+      {
+    	output = output + "<tr>";
+        while(j<=cols)
+        {
+  		  output = output + "<td>" + i*j + "</td>";
+   		  j = j+1;
+   		}
+   		 output = output + "</tr>";
+   		 j = 1;
+    }
+    output = output + "</table>";
+    document.write(output);
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>
+        <footer>
+            &copy;2022 Reintonia Lyanda, All Rigts Reserved.
+        </footer>
+        
+    </div>
+</body>
